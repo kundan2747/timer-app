@@ -1,0 +1,21 @@
+.counter{
+    display: flex;
+}
+
+.container{
+    width: 50%;
+  
+    margin: 15px auto;
+}
+
+.counter >div {
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 3px gray;
+    width: 50%;
+
+}
+.counter>div:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
